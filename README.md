@@ -178,8 +178,6 @@ SSDT-PNLF-CFL.aml
 - When formatting the eMMC drive in Disk Utility, make sure to toggle "Show all Drives" and erase the entire drive.
 - Format the drive as `APFS` and `GUID Partition Table / GPT`
 - Map your USB ports prior to installing macOS³ for a painless install. You **will** reget it if you don't. You can use [USBToolBox](https://github.com/USBToolBox/tool) to do that. You *will* need a second kext that goes along with it for it to work. [Repo here.](https://github.com/USBToolBox/kext). USBToolBox will not work without this kext. 
-- `itlwm` is more stable & faster than `AirportItlwm` on macOS Ventura. 
-- `itlwm` is the only way to connect to Wi-Fi on Sonoma. 
 - AppleTV and other DRM protected services may not work.
 - Control keyboard backlight with left `ctrl` + left `alt` and `<` `>`. 
     - `<` to decrease, `>` to increase.
