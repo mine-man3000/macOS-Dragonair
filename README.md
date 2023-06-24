@@ -10,10 +10,7 @@
    - [Fixing coreboot 4.2.0](#fixing-coreboot-420)
    - [Kext Folder](#kexts)
    - [ACPI Folder](#acpi-folder)
-- [2. Post Install](#2-post-install)
-   - [Misc. Information](#misc-information)
-- [5. Misc](#other)
-
+- [Misc. Information](#misc-information)
 ## Current Status
 
 | **Feature**        | **Status**           | **Notes**                                                                                     |
