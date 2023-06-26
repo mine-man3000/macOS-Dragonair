@@ -166,6 +166,7 @@ SSDT-EC-USBX-LAPTOP.aml
 SSDT-HPET.aml
 SSDT-KBBL.aml
 SSDT-PNLF-CFL.aml
+SSDT-PLUG-ALT.aml
 ```
 >**Note**: These SSDTs were generated with [SSDTTime](https://github.com/corpnewt/SSDTTime)
 
