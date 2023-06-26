@@ -141,7 +141,6 @@ BlueToolFixup.kext
 ECEnabler.kext
 EmeraldSDHC.kext
 HibernationFixup.kext
-HoRNDIS.kext
 IntelBluetoothFirmware.kext
 IntelBTPatcher.kext
 Lilu.kext
