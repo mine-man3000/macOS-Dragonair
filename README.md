@@ -15,7 +15,7 @@
 
 | **Feature**        | **Status**           | **Notes**                                                                                     |
 |--------------------|----------------------|-----------------------------------------------------------------------------------------------|
-| WiFi               | Working              | With `Airportitlwm`                                                                           |
+| WiFi               | Working              | With `Airportitlwm` on Ventura, `itlwm` + `heliport`                                          |
 | Bluetooth          | Working              | With `IntelBluetoothFirmware` and `BlueToolFixup.kext`.                                       |
 | Suspend / Sleep    | Working partially    | Only on battery power, working with `EmeraldSDHC.kext`.                                       |
 | Trackpad           | Working              | With `VoodooI2C.kext` and `VoodooI2CELAN.kext`.                                               | 
@@ -39,6 +39,7 @@
 ### Versions Tested
 
 - 13 (Ventura)
+- 14 (Sonoma) 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -122,7 +123,7 @@ Here are the steps to go from chromeOS to macOS via OpenCore on your Chromebook.
 16. Install macOS and enjoy!
 
 > **Note**: In depth information about OpenCore can be found [here.](https://dortania.github.io/docs/latest/Configuration.html)
-
+> **Note**: if Installing Sonoma add `-lilubetall` to the boot args
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Fixing coreboot 4.20
@@ -136,7 +137,7 @@ coreboot 4.20 (5/15/2023 release) has a known issue where macOS will hang on boo
 ### Kexts
 
 ```
-AirportItlwm.kext
+AirportItlwm.kext (itlwm + heliport for Sonoma)
 BlueToolFixup.kext
 ECEnabler.kext
 EmeraldSDHC.kext
