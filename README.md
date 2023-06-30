@@ -123,6 +123,7 @@ Here are the steps to go from chromeOS to macOS via OpenCore on your Chromebook.
 16. Install macOS and enjoy!
 
 > **Note**: In depth information about OpenCore can be found [here.](https://dortania.github.io/docs/latest/Configuration.html)
+
 > **Note**: if Installing Sonoma add `-lilubetall` to the boot args
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
