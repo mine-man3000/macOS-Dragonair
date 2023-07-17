@@ -15,7 +15,7 @@
 
 | **Feature**        | **Status**           | **Notes**                                                                                     |
 |--------------------|----------------------|-----------------------------------------------------------------------------------------------|
-| WiFi               | Working              | With `Airportitlwm` on Ventura, `itlwm` + `heliport`                                          |
+| WiFi               | Working              | With `Airportitlwm` on Ventura, `itlwm` + `heliport` for Sonoma                                          |
 | Bluetooth          | Working              | With `IntelBluetoothFirmware` and `BlueToolFixup.kext`.                                       |
 | Suspend / Sleep    | Working partially    | Only on battery power, working with `EmeraldSDHC.kext`.                                       |
 | Trackpad           | Working              | With `VoodooI2C.kext` and `VoodooI2CELAN.kext`.                                               | 
