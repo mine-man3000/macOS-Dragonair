@@ -186,7 +186,7 @@ SSDT-PLUG-ALT.aml
 - To fix  battery life, use CPUFriend to tweak power settings. 
 - To hide the OpenCore boot menu, set `ShowPicker` to `False` in `Misc` ->` Boot` -> `ShowPicker`
 - `AppleXcpmCfgLock` and `DisableIOMapper` can be enabled or disabled. There is no difference.
-- eMMC will not be recognized if `ScanPolicy` is set to `0`.
+- eMMC will not be recognized if `ScanPolicy` is not set to `0`.
 >**Note**: SSDT-USB-Reset / SSDT-RHUB is not needed if using USBToolBox.
 
 credit to [meghan06](https://github.com/meghan06/) for his guide which I based this one on. 
